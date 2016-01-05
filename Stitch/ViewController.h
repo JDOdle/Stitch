@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "opencv2/imgcodecs.hpp"
 
 @interface ViewController : UIViewController
 
