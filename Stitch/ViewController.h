@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "opencv2/imgcodecs.hpp"
+#import "opencv2/core.hpp"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
+- (IBAction)takeImage:(id)sender;
 
 
 @end

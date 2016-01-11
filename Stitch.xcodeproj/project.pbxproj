@@ -17,6 +17,7 @@
 		D040DECF1C3BA4C500F40FE8 /* StitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D040DECE1C3BA4C500F40FE8 /* StitchTests.m */; };
 		D040DEDA1C3BA4C500F40FE8 /* StitchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D040DED91C3BA4C500F40FE8 /* StitchUITests.m */; };
 		D040DEEA1C3BA52100F40FE8 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D040DEE91C3BA52100F40FE8 /* opencv2.framework */; };
+		D040DEEC1C3DDBC100F40FE8 /* ImgConversions.mm in Sources */ = {isa = PBXBuildFile; fileRef = D040DEEB1C3DDBC100F40FE8 /* ImgConversions.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		D040DED91C3BA4C500F40FE8 /* StitchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StitchUITests.m; sourceTree = "<group>"; };
 		D040DEDB1C3BA4C500F40FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D040DEE91C3BA52100F40FE8 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../../../Library/Frameworks/opencv2.framework; sourceTree = "<group>"; };
+		D040DEEB1C3DDBC100F40FE8 /* ImgConversions.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImgConversions.mm; sourceTree = "<group>"; };
+		D040DEED1C3DDC0800F40FE8 /* ImgConversions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImgConversions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				D040DEB51C3BA4C500F40FE8 /* AppDelegate.m */,
 				D040DEB71C3BA4C500F40FE8 /* ViewController.h */,
 				D040DEB81C3BA4C500F40FE8 /* ViewController.mm */,
+				D040DEED1C3DDC0800F40FE8 /* ImgConversions.h */,
+				D040DEEB1C3DDBC100F40FE8 /* ImgConversions.mm */,
 				D040DEBA1C3BA4C500F40FE8 /* Main.storyboard */,
 				D040DEC01C3BA4C500F40FE8 /* Assets.xcassets */,
 				D040DEC21C3BA4C500F40FE8 /* LaunchScreen.storyboard */,
@@ -281,6 +286,7 @@
 				D040DEB61C3BA4C500F40FE8 /* AppDelegate.m in Sources */,
 				D040DEBF1C3BA4C500F40FE8 /* Stitch.xcdatamodeld in Sources */,
 				D040DEB31C3BA4C500F40FE8 /* main.m in Sources */,
+				D040DEEC1C3DDBC100F40FE8 /* ImgConversions.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +520,7 @@
 				D040DEE01C3BA4C500F40FE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D040DEE11C3BA4C500F40FE8 /* Build configuration list for PBXNativeTarget "StitchTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +529,7 @@
 				D040DEE31C3BA4C500F40FE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D040DEE41C3BA4C500F40FE8 /* Build configuration list for PBXNativeTarget "StitchUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +538,7 @@
 				D040DEE61C3BA4C500F40FE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
